@@ -34,7 +34,7 @@ def main():
     recent_anime = fetch_recent_anime()
     save_data(recent_anime, "recent_anime.json")
 
-    # Exemplo: buscar detalhes completos de um anime específico (id exemplo: 1)
+    # Buscar detalhes completos de um anime específico (id exemplo: 1)
     print("Buscando detalhes do anime com id 1...")
     details = fetch_all_details("anime", 1)
     save_data(details, "anime_1_details.json")
